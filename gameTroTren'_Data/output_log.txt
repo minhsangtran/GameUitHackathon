@@ -1,0 +1,76 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     880 MB
+    Driver:   9.17.10.2849
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\UNITY-GAME\Hackathon2018\BuildGame\gameTroTren'_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  1.150 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 36.721081 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.838787 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 429.
+Total: 14.094282 ms (FindLiveObjects: 0.069703 ms CreateObjectMapping: 0.040624 ms MarkObjects: 0.545656 ms  DeleteObjects: 13.436158 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameController.GetPoint2 () [0x00000] in <filename unknown>:0 
+  at NhanVatPhanDienController.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 71.823152 ms
+
+Unloading 112 unused Assets to reduce memory usage. Loaded Objects now: 314.
+Total: 0.912564 ms (FindLiveObjects: 0.036776 ms CreateObjectMapping: 0.027368 ms MarkObjects: 0.249736 ms  DeleteObjects: 0.597827 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.566610 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 429.
+Total: 0.411808 ms (FindLiveObjects: 0.037631 ms CreateObjectMapping: 0.029934 ms MarkObjects: 0.311742 ms  DeleteObjects: 0.031644 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameController.GetPoint2 () [0x00000] in <filename unknown>:0 
+  at NhanVatPhanDienController.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 2.804402 ms
+
+Unloading 113 unused Assets to reduce memory usage. Loaded Objects now: 310.
+Total: 1.293583 ms (FindLiveObjects: 0.047467 ms CreateObjectMapping: 0.039342 ms MarkObjects: 0.360065 ms  DeleteObjects: 0.845853 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1170 -> priority: 1 
+  Thread -> id: 1374 -> priority: 1 
